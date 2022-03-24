@@ -1,0 +1,31 @@
+/* global section */
+
+* { box-sizing: border-box; }
+
+.container-fluid {
+	width: 80%;
+}
+
+/* header section */
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* main section */
+
+.movies-list {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 1rem;
+}
+
+.poster-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+	margin: 1rem;
+	box-shadow: 4px 2px 5px 1px #827E7F;
+}

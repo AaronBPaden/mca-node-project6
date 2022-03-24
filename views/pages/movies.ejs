@@ -1,0 +1,11 @@
+<%- include('../partials/header'); %>
+<main class="main container-fluid movies-list">
+	<% data.forEach(el => { %>
+		<a href="/movies/<%= data.category %>/<%= el.id %>">
+			<div class="poster-box">
+				<img class="img-fluid" src="<%= el.posterURL %>" alt="<%= el.title %>" />
+			</div>
+		</a>
+	<% }); %>
+</main>
+<%- include('../partials/footer'); %>

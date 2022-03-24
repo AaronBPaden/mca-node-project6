@@ -2,8 +2,11 @@
 
 import express from 'express';
 const router = express.Router();
+// import {router as movies} from './api/moviesRoutes.js';
+import movies from './api/moviesRoutes.js';
 
 router.use(express.static('public'));
+router.use('/movies', movies);
 
 router.get('/', (req, res) => {
 	res.render('pages/home', {
