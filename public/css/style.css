@@ -11,6 +11,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	border-bottom: 1px solid black;
 }
 
 /* main section */
@@ -28,4 +29,19 @@
 	padding: 1rem;
 	margin: 1rem;
 	box-shadow: 4px 2px 5px 1px #827E7F;
+}
+
+.poster-container {
+	display: flex;
+	justify-content: center;
+	margin: 2rem;
+}
+
+.single-poster {
+	box-shadow: 4px 2px 5px 1px #827E7F;
+}
+
+.movie-info {
+	padding-top: 1rem;
+	border-top: 1px solid black;
 }

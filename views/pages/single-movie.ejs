@@ -1,0 +1,11 @@
+<%- include('../partials/header'); %>
+<main class="main container-fluid">
+	<div class="poster-container">
+		<img class="img-fluid single-poster" src="<%= data.posterURL %>" alt="<%= data.title %>">
+	</div>
+	<div class="movie-info">
+		<h2>More information:</h2>
+		<p>Check out the IMDb page at <a href="https://www.imdb.com/title/<%= data.imdbId %>">https://www.imdb.com/title/<%= data.imdbId %></a></p>
+	</div>
+</main>
+<%- include('../partials/footer'); %>
